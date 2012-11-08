@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/wg-ros-pkg/!svn/ver/55176/stacks/pr2_object_manipulation/tags/fuerte/applications/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/wg-ros-pkg/!svn/ver/55176/stacks/pr2_object_manipulation/tags/fuerte/applications/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/__init__.py
+END
+pick_and_place_demo.py
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/wg-ros-pkg/!svn/ver/55176/stacks/pr2_object_manipulation/tags/fuerte/applications/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_demo.py
+END
+pick_and_place_manager.py
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/wg-ros-pkg/!svn/ver/55176/stacks/pr2_object_manipulation/tags/fuerte/applications/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_manager.py
+END

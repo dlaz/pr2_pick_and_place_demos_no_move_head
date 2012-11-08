@@ -1,0 +1,16 @@
+K 14
+svn:executable
+V 1
+*
+K 13
+svn:mergeinfo
+V 1348
+/branches/arm_planning_branch/stacks/pr2_tabletop_manipulation_apps/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_demo.py:27259-27893
+/pkg/branches/gazebo-branch-merge/stacks/pr2_tabletop_manipulation_apps/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_demo.py:15683-15684,15739-15794,15797-15820,15822-15839,15852-15870,15983-16008,16010-16016,16129-16141,16145-16169,16245-16262,16274-16334
+/stacks/pr2_object_manipulation/branches/0.5-branch/applications/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_demo.py:53859-54412
+/stacks/pr2_object_manipulation/branches/fast_testers/applications/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_demo.py:53704-53755
+/stacks/pr2_object_manipulation/branches/hri12/applications/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_demo.py:52662-52935
+/stacks/pr2_object_manipulation/trunk/applications/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_demo.py:54898-54907,54912-54920,54929-54933
+/stacks/pr2_tabletop_manipulation_apps/branches/arm_navigation_0_3/pr2_pick_and_place_demos/scripts/pick_and_place_demo.py:44966
+/tags/controller_manager_rename/stacks/pr2_tabletop_manipulation_apps/pr2_pick_and_place_demos/src/pr2_pick_and_place_demos/pick_and_place_demo.py:25336-25352
+END
