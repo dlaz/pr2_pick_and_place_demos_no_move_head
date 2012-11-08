@@ -836,22 +836,23 @@ class PickAndPlaceManager():
 
     ##point the head (really the narrow-stereo camera frame) at a location
     def point_head(self, point, frame, pause = 1):
-        goal = PointHeadGoal()
-        goal.target = create_point_stamped(point, frame)
-        goal.pointing_frame = "/narrow_stereo_optical_frame"
-        goal.max_velocity = 1.0
-
-        self.head_action_client.send_goal(goal)
-        finished_within_time = self.head_action_client.wait_for_result(rospy.Duration(3))
-        if not finished_within_time:
-            self.head_action_client.cancel_goal()
-            rospy.logerr("timed out when asking the head to point to a new goal")
-            return 0
-
-        #sleep a bit so a new point cloud has time to be generated
-        if pause:
-            time.sleep(1.0)
         return 1
+        # goal = PointHeadGoal()
+        # goal.target = create_point_stamped(point, frame)
+        # goal.pointing_frame = "/narrow_stereo_optical_frame"
+        # goal.max_velocity = 1.0
+        # 
+        # self.head_action_client.send_goal(goal)
+        # finished_within_time = self.head_action_client.wait_for_result(rospy.Duration(3))
+        # if not finished_within_time:
+        #     self.head_action_client.cancel_goal()
+        #     rospy.logerr("timed out when asking the head to point to a new goal")
+        #     return 0
+        # 
+        # #sleep a bit so a new point cloud has time to be generated
+        # if pause:
+        #     time.sleep(1.0)
+        # return 1
 
 
     ##use the table detection to update the table information
